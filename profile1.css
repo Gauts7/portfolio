@@ -1,0 +1,363 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 09-Feb-2023, 9:50:48 am
+    Author     : GAUTAMI
+*/
+
+
+body{
+    background-image:url("background1.jpg");
+    background-size: cover;
+}
+
+
+#cname{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 25px;
+    
+}
+
+#child:hover{
+    background-color: bisque;
+}
+#parent {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    float: right;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+.child {
+    display: inline-block;
+    font-family: cursive;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footerimg1,#footerimg2,#footerimg3{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    padding-top: 250px;
+}
+#footparent{
+    width: 100%;
+    background-color: gainsboro;
+}
+
+#profilepic{
+    padding: 30px;
+}
+
+#content{
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+#text1{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#text2{
+    font-size: 50px;
+    font-family: arial black;
+    font-weight: bold;
+}
+
+#text3{
+    font-size: 30px;
+    font-family: cursive;
+}
+#content{
+
+    float: left;
+}
+#profilepic{
+    padding-left: 200px;
+    padding-top: 50px;
+    border-radius: 100px;
+    height: 500px;
+}
+#content,#profilepic{
+    display: inline-block;
+}
+
+#containercontent{
+    width: 100%;
+}
+#aboutp{
+    
+    font-size: 17px;
+    font-family: Lucida Sans Unicode;
+    border: 2px solid #FD8A8A;
+    box-shadow: 4px 4px 5px #EB455F;
+    background-color: white;
+    padding: 60px;
+    margin: 30px;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+    height: 150px;
+    position: absolute;
+    right: 285px;
+}
+
+#aboutpic{
+    padding-left: 500px;
+    height: 300px;
+    
+}
+#about{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+#skills{
+    padding-top: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+#education{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+.childd{
+    text-decoration: none;
+    color: black;
+}
+.childd:hover {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px
+}
+
+.childd:active{
+    border-bottom-color: black;
+}
+
+
+.row {
+  display: flex;
+  padding-left: 500px;
+  padding-right: 50px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  text-align: center;
+}
+
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+  border-radius: 5%;
+}
+
+.bio {
+  background-color: white;
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px black;
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+.bio-text{
+    font-size: 20px;
+}
+.bio-title{
+    font-size: 30px;
+}
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+.skills {
+    
+  max-width: 80rem;
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+  font-size: 60px;
+  font-family: serif;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+
+.p{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+  
+    .container {
+        background-color: #ECF2FF;
+        width: 80%;
+        margin-left: 50px;
+        border-radius: 15px;
+    }
+  
+    .skill {
+        background-color: #393053;
+        color: white;
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+  
+    .html {
+        width: 90%;
+    }
+  
+    .css {
+        width: 65%;
+    }
+    
+    .js{
+        width: 60%;
+    }
+    
+    .oop{
+        width: 70%;
+    }
+    
+    
+    .c{
+        width: 90%;
+    }
+    
+    
+    h1.skill-header{
+        writing-mode: vertical-rl; ;
+    }
+    
+    .head-content{
+        display: inline-block;
+
+    }
+    
+    #title{
+        float: left;
+        width: 20%;
+        padding-top: 200px;
+        padding-left: 45px;
+    }
+    
+    #content3{
+        padding-top:70px;
+        float: right;
+        width: 70%;
+    }
+    
+    #upper1{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position:absolute;
+        top: 1340px;
+        right: 16px;
+
+    }
+    
+    #upper2{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position:absolute;
+        top: 2070px;
+        right: 16px;
+
+    }
+    
+    #upper3{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position:absolute;
+        top: 2860px;
+        right: 16px;
+
+    }
+    
+  * {
+	box-sizing: border-box;
+}
+
+
+
+ol {
+	padding: 170px;;
+	margin: 0;
+	position: relative;
+}
+
+ol::before {
+	content: '';
+	width: 0.5rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: peachpuff;
+	z-index: -1;
+}
+
+.li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+        font-size: 20px;
+}
+
+.li + .li {
+	margin-top: 1rem;
+}
+
+::marker {
+	font-weight: 600;
+	color: tomato;
+	font-size: 1.8rem;
+}
+
+
+    
